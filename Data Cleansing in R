@@ -22,3 +22,4 @@ names(Final1)[11] = "Bid Value"
 Final1 = subset(Final1,select = -c(description,daysleft,verified,state))
 Final1 = Final1[!(Final1$`Bid Value`>= 100000),] 
 Final1 = Final1[!(Final1$skillset == "NA"),] 
+
