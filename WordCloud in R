@@ -46,3 +46,4 @@ png("MachineLearningCloud.png", width=12, height=8, units="in", res=300)
 wordcloud(dm$word, dm$freq, random.order=FALSE, colors=brewer.pal(8, "Dark2"))
 dev.off()
 
+
