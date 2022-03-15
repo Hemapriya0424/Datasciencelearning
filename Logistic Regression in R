@@ -54,3 +54,4 @@ plot(performance)
 auc <- performance(prediction, measure = "auc")
 auc <- auc@y.values[[1]]
 auc
+
