@@ -29,3 +29,4 @@ rfm_segmentation['F_Quartile'] = rfm_segmentation['Frequency'].apply(FMScore, ar
 rfm_segmentation['M_Quartile'] = rfm_segmentation['Monetary'].apply(FMScore, args=('Monetary',quantiles,))
 rfm_segmentation.head()
 
+
