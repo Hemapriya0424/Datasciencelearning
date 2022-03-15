@@ -82,7 +82,6 @@ def get_Bidderlisting(soup1):
                 get_bidderdata(Freelancer_Name, Description, Freelancer_Location, Bid_amount, Bid_days, PjtID)
     return
 
-
 def get_projectdata( title, description, Elist, bid, daysleft, verified, location, PjtID):
     sql = "INSERT INTO `projtable` (`title`,`description`,`skillset`,`bid`, `daysleft`,`verified`,`Location`,`projectID`) VALUES ('%s', '%s', '%s', '%s','%s','%s','%s','%s')" % (
         title, description, Elist, bid, daysleft, verified, location, PjtID)
