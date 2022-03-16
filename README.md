@@ -2,7 +2,7 @@
 Technology Vertical lead generation using market trend Analysis
 
 About:
-	Data is collected from a major project posting website, freelancer and leads are generated based on the skill set of the technical team. The market and trend Analysis is done on the data collected from the market during Feb 2018.
+	Data is collected from major project posting websites and leads are generated based on the skill set of the technical team.Market and trend Analysis is done on the data collected from the market during Feb 2018.
     
 Visualization:
 
